@@ -1,24 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 04/13/2019 11:34:55 PM
-// Design Name: 
-// Module Name: top
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
 
 module top(
     input wire CLK,
@@ -56,21 +36,5 @@ end
           4'b1111  : high_io[33] <= sw[0];
         endcase
         end 
-//        if(sw[0] == 0)
-//        begin
-//            high_io[33:26] <= 8'b00000000;
-//        end
-//        else
-//        begin
-//            high_io[33:26] <= 8'b11111111;
-//        end
-//        if(sw[1] == 0)
-//        begin
-//            low_io[7:0] <= 8'b00000000;
-//        end
-//        else
-//        begin
-//            low_io[7:0] <= 8'b11111111;
-//        end
     end
 endmodule
