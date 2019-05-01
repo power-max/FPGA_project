@@ -1,0 +1,419 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Apr 30 13:12:01 2019
+# Process ID: 8756
+# Current directory: C:/FPGALabGroupName/FinalProject/FinalProject.runs/CPU_MaybeThisWillWork_0_0_synth_1
+# Command line: vivado.exe -log CPU_MaybeThisWillWork_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source CPU_MaybeThisWillWork_0_0.tcl
+# Log file: C:/FPGALabGroupName/FinalProject/FinalProject.runs/CPU_MaybeThisWillWork_0_0_synth_1/CPU_MaybeThisWillWork_0_0.vds
+# Journal file: C:/FPGALabGroupName/FinalProject/FinalProject.runs/CPU_MaybeThisWillWork_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source CPU_MaybeThisWillWork_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/FPGALabGroupName/FinalProject/MaybeThisWillWork_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+Command: synth_design -top CPU_MaybeThisWillWork_0_0 -part xc7z020clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 10308 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 396.473 ; gain = 98.852
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'CPU_MaybeThisWillWork_0_0' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ip/CPU_MaybeThisWillWork_0_0/synth/CPU_MaybeThisWillWork_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'MaybeThisWillWork_v1_0' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/hdl/MaybeThisWillWork_v1_0.v:4]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'MaybeThisWillWork_v1_0_S00_AXI' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/hdl/MaybeThisWillWork_v1_0_S00_AXI.v:4]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 3 - type: integer 
+INFO: [Synth 8-226] default block is never used [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/hdl/MaybeThisWillWork_v1_0_S00_AXI.v:268]
+INFO: [Synth 8-226] default block is never used [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/hdl/MaybeThisWillWork_v1_0_S00_AXI.v:505]
+INFO: [Synth 8-6157] synthesizing module 'LEDPanelDriver' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:1]
+WARNING: [Synth 8-6090] variable 'LED_LAT_REG' is written by both blocking and non-blocking assignments, entire logic could be removed [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:110]
+WARNING: [Synth 8-567] referenced signal 'pixel' should be on the sensitivity list [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:116]
+WARNING: [Synth 8-567] referenced signal 'PixelSteady' should be on the sensitivity list [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:116]
+WARNING: [Synth 8-567] referenced signal 'PixelRegCheck' should be on the sensitivity list [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:116]
+WARNING: [Synth 8-567] referenced signal 'PixelReg' should be on the sensitivity list [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:116]
+INFO: [Synth 8-6155] done synthesizing module 'LEDPanelDriver' (1#1) [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'MaybeThisWillWork_v1_0_S00_AXI' (2#1) [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/hdl/MaybeThisWillWork_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'MaybeThisWillWork_v1_0' (3#1) [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/hdl/MaybeThisWillWork_v1_0.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'CPU_MaybeThisWillWork_0_0' (4#1) [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ip/CPU_MaybeThisWillWork_0_0/synth/CPU_MaybeThisWillWork_0_0.v:57]
+WARNING: [Synth 8-3331] design LEDPanelDriver has unconnected port btn[3]
+WARNING: [Synth 8-3331] design LEDPanelDriver has unconnected port btn[2]
+WARNING: [Synth 8-3331] design LEDPanelDriver has unconnected port btn[1]
+WARNING: [Synth 8-3331] design LEDPanelDriver has unconnected port sw[1]
+WARNING: [Synth 8-3331] design LEDPanelDriver has unconnected port sw[0]
+WARNING: [Synth 8-3331] design MaybeThisWillWork_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design MaybeThisWillWork_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design MaybeThisWillWork_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design MaybeThisWillWork_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design MaybeThisWillWork_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design MaybeThisWillWork_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 454.258 ; gain = 156.637
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 454.258 ; gain = 156.637
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 454.258 ; gain = 156.637
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 812.293 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 812.293 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.210 . Memory (MB): peak = 815.602 ; gain = 3.309
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 815.602 ; gain = 517.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 815.602 ; gain = 517.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 815.602 ; gain = 517.980
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "PixelReg" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_B2_reg[0]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:49]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_B2_reg[1]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:49]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_B2_reg[2]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:49]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_B2_reg[3]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:49]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_B2_reg[4]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:49]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_B2_reg[5]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:49]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_B2_reg[6]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:49]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_B2_reg[7]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:49]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_G2_reg[0]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:48]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_G2_reg[1]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:48]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_G2_reg[2]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:48]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_G2_reg[3]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:48]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_G2_reg[4]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:48]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_G2_reg[5]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:48]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_G2_reg[6]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:48]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_G2_reg[7]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:48]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_R2_reg[0]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:47]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_R2_reg[1]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:47]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_R2_reg[2]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:47]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_R2_reg[3]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:47]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_R2_reg[4]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:47]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_R2_reg[5]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:47]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_R2_reg[6]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:47]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_R2_reg[7]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:47]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_B1_reg[0]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_B1_reg[1]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_B1_reg[2]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_B1_reg[3]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_B1_reg[4]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_B1_reg[5]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_B1_reg[6]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_B1_reg[7]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_G1_reg[0]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:45]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_G1_reg[1]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:45]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_G1_reg[2]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:45]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_G1_reg[3]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:45]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_G1_reg[4]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:45]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_G1_reg[5]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:45]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_G1_reg[6]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:45]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_G1_reg[7]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:45]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_R1_reg[0]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:44]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_R1_reg[1]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:44]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_R1_reg[2]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:44]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_R1_reg[3]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:44]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_R1_reg[4]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:44]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_R1_reg[5]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:44]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_R1_reg[6]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:44]
+WARNING: [Synth 8-327] inferring latch for variable 'framebuffer_R1_reg[7]' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:44]
+WARNING: [Synth 8-327] inferring latch for variable 'PixelReg_reg' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:120]
+WARNING: [Synth 8-327] inferring latch for variable 'PixelSteady_reg' [c:/FPGALabGroupName/FinalProject/FinalProject.srcs/sources_1/bd/CPU/ipshared/a486/src/LEDPanelDriver.v:119]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 815.602 ; gain = 517.980
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 2     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 17    
+	                8 Bit    Registers := 1     
+	                6 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 40    
+	  16 Input     32 Bit        Muxes := 16    
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 7     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module LEDPanelDriver 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 2     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 24    
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module MaybeThisWillWork_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 17    
+	                6 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 16    
+	  16 Input     32 Bit        Muxes := 16    
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "PixelReg" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3331] design LEDPanelDriver has unconnected port btn[3]
+WARNING: [Synth 8-3331] design LEDPanelDriver has unconnected port btn[2]
+WARNING: [Synth 8-3331] design LEDPanelDriver has unconnected port btn[1]
+WARNING: [Synth 8-3331] design LEDPanelDriver has unconnected port sw[1]
+WARNING: [Synth 8-3331] design LEDPanelDriver has unconnected port sw[0]
+WARNING: [Synth 8-3331] design MaybeThisWillWork_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design MaybeThisWillWork_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design MaybeThisWillWork_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design MaybeThisWillWork_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design MaybeThisWillWork_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design MaybeThisWillWork_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
+INFO: [Synth 8-3886] merging instance 'inst/MaybeThisWillWork_v1_0_S00_AXI_inst/axi_rresp_reg[0]' (FDRE) to 'inst/MaybeThisWillWork_v1_0_S00_AXI_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/MaybeThisWillWork_v1_0_S00_AXI_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'inst/MaybeThisWillWork_v1_0_S00_AXI_inst/axi_bresp_reg[0]' (FDRE) to 'inst/MaybeThisWillWork_v1_0_S00_AXI_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/MaybeThisWillWork_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 815.602 ; gain = 517.980
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:42 ; elapsed = 00:00:45 . Memory (MB): peak = 820.191 ; gain = 522.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:42 ; elapsed = 00:00:46 . Memory (MB): peak = 822.078 ; gain = 524.457
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:44 ; elapsed = 00:00:48 . Memory (MB): peak = 854.953 ; gain = 557.332
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:46 ; elapsed = 00:00:49 . Memory (MB): peak = 854.953 ; gain = 557.332
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:46 ; elapsed = 00:00:49 . Memory (MB): peak = 854.953 ; gain = 557.332
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:46 ; elapsed = 00:00:50 . Memory (MB): peak = 854.953 ; gain = 557.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:46 ; elapsed = 00:00:50 . Memory (MB): peak = 854.953 ; gain = 557.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:46 ; elapsed = 00:00:50 . Memory (MB): peak = 854.953 ; gain = 557.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:46 ; elapsed = 00:00:50 . Memory (MB): peak = 854.953 ; gain = 557.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |     5|
+|2     |LUT1   |     4|
+|3     |LUT2   |    10|
+|4     |LUT3   |     7|
+|5     |LUT4   |    24|
+|6     |LUT5   |     5|
+|7     |LUT6   |  1135|
+|8     |MUXF7  |   268|
+|9     |MUXF8  |   134|
+|10    |FDRE   |   589|
+|11    |FDSE   |     1|
+|12    |LD     |  1586|
++------+-------+------+
+
+Report Instance Areas: 
++------+----------------------------------------+-------------------------------+------+
+|      |Instance                                |Module                         |Cells |
++------+----------------------------------------+-------------------------------+------+
+|1     |top                                     |                               |  3768|
+|2     |  inst                                  |MaybeThisWillWork_v1_0         |  3768|
+|3     |    MaybeThisWillWork_v1_0_S00_AXI_inst |MaybeThisWillWork_v1_0_S00_AXI |  3764|
+|4     |      LEDDriver_instance_01             |LEDPanelDriver                 |  2913|
++------+----------------------------------------+-------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:46 ; elapsed = 00:00:50 . Memory (MB): peak = 854.953 ; gain = 557.332
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 61 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:33 ; elapsed = 00:00:41 . Memory (MB): peak = 854.953 ; gain = 195.988
+Synthesis Optimization Complete : Time (s): cpu = 00:00:46 ; elapsed = 00:00:50 . Memory (MB): peak = 854.953 ; gain = 557.332
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 1993 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.001 . Memory (MB): peak = 854.953 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1586 instances were transformed.
+  LD => LDCE: 1586 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+30 Infos, 78 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:51 ; elapsed = 00:00:55 . Memory (MB): peak = 854.953 ; gain = 566.578
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 854.953 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/FPGALabGroupName/FinalProject/FinalProject.runs/CPU_MaybeThisWillWork_0_0_synth_1/CPU_MaybeThisWillWork_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP CPU_MaybeThisWillWork_0_0, cache-ID = 9770aa0114f2a0a7
+INFO: [Coretcl 2-1174] Renamed 3 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 854.953 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/FPGALabGroupName/FinalProject/FinalProject.runs/CPU_MaybeThisWillWork_0_0_synth_1/CPU_MaybeThisWillWork_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file CPU_MaybeThisWillWork_0_0_utilization_synth.rpt -pb CPU_MaybeThisWillWork_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 30 13:13:11 2019...

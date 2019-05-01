@@ -1,0 +1,242 @@
+#include "stdio.h"
+#include "platform.h"
+#include "xgpiops.h"
+#include "xparameters.h"
+#include "platform.h"
+#include "xbasic_types.h"
+#include "xparameters.h"
+#include "xstatus.h"
+#include <unistd.h>
+
+static XGpioPs mio_emio_pmod2;
+
+// we will use the Base Address of the RTL_MULTIPLIER
+Xuint32 *baseaddr_p = (Xuint32 *) XPAR_MAYBETHISWILLWORK_0_S00_AXI_BASEADDR;
+
+static XGpioPs mio_emio_pmod2;
+
+//GPIO code funtions (only pin 12 works.)
+//XGpioPs_Config *ConfigPtrPS;
+//ConfigPtrPS = XGpioPs_LookupConfig(XPAR_PS7_GPIO_0_DEVICE_ID);
+//int Status  = XGpioPs_CfgInitialize(&mio_emio_pmod2, ConfigPtrPS, ConfigPtrPS->BaseAddr);
+//XGpioPs_SetDirectionPin(&mio_emio_pmod2, i, 0);
+//XGpioPs_SetOutputEnablePin(&mio_emio_pmod2, i, 1);
+//XGpioPs_ReadPin (&mio_emio_pmod2, 12));
+//XGpioPs_WritePin (&mio_emio_pmod2, 12, state);
+
+// Base Address of the LED panel interface
+Xuint32 *LED_panel = (Xuint32 *) XPAR_MAYBETHISWILLWORK_0_S00_AXI_BASEADDR;
+
+/* dimensions of the screen */
+#define BOARD_WIDTH	 32
+#define BOARD_HEIGHT 16
+
+/* 1 = alive, 0= dead */
+//u8 board[BOARD_WIDTH][BOARD_HEIGHT];
+int board[BOARD_WIDTH][BOARD_HEIGHT] =
+{
+  {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+  {0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0},
+  {0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0},
+  {0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0},
+  {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+  {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+  {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+  {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+  {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+  {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+  {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+  {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+  {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+  {0,0,0,0,0,0,0,1,0,0,0,1,1,1,0,0},
+  {0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0},
+  {0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0},
+  {0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0},
+  {0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0},
+  {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+  {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+  {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+  {0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0},
+  {0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0},
+  {0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0},
+  {0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0},
+  {0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0},
+  {0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0},
+  {0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0},
+  {0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0},
+  {0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0},
+  {0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0},
+  {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+};
+
+
+/* set everthing to zero */
+void initialize_board (int board[][BOARD_HEIGHT]) {
+	int	i, j;
+
+	for (i=0; i<BOARD_WIDTH; i++) for (j=0; j<BOARD_HEIGHT; j++)
+		board[i][j] = 0;
+}
+
+/* add to a width index, wrapping around like a cylinder */
+
+int xadd (int i, int a) {
+	i += a;
+	while (i < 0) i += BOARD_WIDTH;
+	while (i >= BOARD_WIDTH) i -= BOARD_WIDTH;
+	return i;
+}
+
+/* add to a height index, wrapping around */
+
+int yadd (int i, int a) {
+	i += a;
+	while (i < 0) i += BOARD_HEIGHT;
+	while (i >= BOARD_HEIGHT) i -= BOARD_HEIGHT;
+	return i;
+}
+
+/* return the number of on cells adjacent to the i,j cell */
+
+int adjacent_to (int board[][BOARD_HEIGHT], int i, int j) {
+	int	k, l, count;
+
+	count = 0;
+
+	/* go around the cell */
+
+	for (k=-1; k<=1; k++) for (l=-1; l<=1; l++)
+
+		/* only count if at least one of k,l isn't zero */
+
+		if (k || l)
+			if (board[xadd(i,k)][yadd(j,l)]) count++;
+	return count;
+}
+
+
+void play (int board[][BOARD_HEIGHT]) {
+/*
+	(copied this from some web page, hence the English spellings...)
+	1.STASIS : If, for a given cell, the number of on neighbours is
+	exactly two, the cell maintains its status quo into the next
+	generation. If the cell is on, it stays on, if it is off, it stays off.
+	2.GROWTH : If the number of on neighbours is exactly three, the cell
+	will be on in the next generation. This is regardless of the cell's 		current state.
+	3.DEATH : If the number of on neighbours is 0, 1, 4-8, the cell will
+	be off in the next generation.
+*/
+	int	i, j, a, newboard[BOARD_WIDTH][BOARD_HEIGHT];
+
+	/* for each cell, apply the rules of Life */
+
+	for (i=0; i<BOARD_WIDTH; i++) for (j=0; j<BOARD_HEIGHT; j++) {
+		a = adjacent_to (board, i, j);
+		if (a == 2) newboard[i][j] = board[i][j];
+		if (a == 3) newboard[i][j] = 1;
+		if (a < 2) newboard[i][j] = 0;
+		if (a > 3) newboard[i][j] = 0;
+	}
+
+	/* copy the new board back into the old board */
+
+	for (i=0; i<BOARD_WIDTH; i++) for (j=0; j<BOARD_HEIGHT; j++) {
+		board[i][j] = newboard[i][j];
+	}
+}
+
+/* print the life board */
+void print_board (int board[][BOARD_HEIGHT]) {
+	int	i, j;
+
+	/* for each row */
+	for (j=0; j<BOARD_HEIGHT; j++) {
+
+		/* print each column position... */
+		for (i=0; i<BOARD_WIDTH; i++) {
+			printf (" %c ", board[i][j] ? '#' : '.');
+		}
+
+		/* followed by a carriage return */
+		printf ("\n");
+	}
+}
+
+
+// x:     x coordinate for pixel, values between 0 and 31 are valid
+// y:     y coordinate for pixel, values between 0 and 15 are valid
+// color: color of pixel in format of 0brgb where r is red, g is green, and b is blue. only first 3 bits matter
+void pixel(uint8_t x, uint8_t y, uint8_t color){
+	// format: 0xxxxx00yyyyrgb1
+	uint16_t t = 0;
+	t |= (x & 0b11111);
+	t <<= 4 + 2; // 2 zeros pad between x and y
+	t |= (y & 0b1111);
+	t <<= 3;
+	t |= (color & 0b111);
+	t <<= 1;
+	t |= 1; // lsb is one
+
+	*(baseaddr_p + 0) = t;
+//	for(int i = 15; i >= 0; i--){
+//		printf("%d", (t>>i)&1 );
+//	} printf("\n");
+}
+
+
+
+
+// x, y
+int cursor_pos[2] = {5,5};
+const int cursor_shape[5][5] =
+{
+	{0,0,4,0,0},
+	{0,0,4,0,0},
+	{4,4,0,4,4},
+	{0,0,4,0,0},
+	{0,0,4,0,0}
+};
+
+int main() {
+    init_platform();
+
+    usleep(5000000); // testing
+
+//    initialize_board(board);
+//    memcpy(board, board_begin, sizeof(board));
+
+    // initialize the display
+    for(int y = 0; y < BOARD_HEIGHT; y++){
+    	for( int x = 0; x < BOARD_WIDTH; x++){
+    		pixel(x, y, 0);
+    		usleep(50);
+    	}
+    }
+
+	while(1) {
+
+		for( int x = 0; x < BOARD_WIDTH; x++) {
+			for(int y = 0; y < BOARD_HEIGHT; y++) {
+				pixel(x, y, board[x][y]<<1); // make the pixels green :)
+	    		usleep(50);
+			}
+		}
+
+		// superimpose cursor on top of display
+//		for(int x = 0; x < 5; x++){
+//			for( int y = 0; y < 5; y++){
+////				if( (y >= 0) && (y <= 31) && (x >= 0) && (x <= 31) /*&& ((cursor_shape[x][y]&8) == 0)*/){
+//
+//				pixel(x+cursor_pos[0], y+cursor_pos[1], cursor_shape[x][y]&0b111); // make the pixels green :)
+//	    		usleep(50);
+//			}
+//		}
+		printf("\n\n");
+		print_board(board);
+		usleep(20000);
+		play (board);
+	}
+
+    cleanup_platform();
+    return 0;
+}

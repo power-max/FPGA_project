@@ -1,0 +1,1041 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue Apr 30 13:11:40 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 51) to (Rev. 52)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue Apr 30 13:04:10 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 50) to (Rev. 51)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue Apr 30 12:55:22 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 49) to (Rev. 50)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue Apr 30 12:42:25 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 48) to (Rev. 49)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue Apr 30 12:31:29 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 47) to (Rev. 48)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue Apr 30 12:13:51 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 46) to (Rev. 47)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue Apr 30 11:55:23 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 45) to (Rev. 46)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue Apr 30 11:42:27 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 44) to (Rev. 45)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue Apr 30 11:22:09 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 43) to (Rev. 44)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue Apr 30 10:54:14 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 42) to (Rev. 43)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue Apr 30 10:40:54 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 41) to (Rev. 42)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue Apr 30 05:49:26 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 40) to (Rev. 41)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue Apr 30 05:38:53 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 39) to (Rev. 40)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue Apr 30 05:20:10 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 38) to (Rev. 39)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue Apr 30 05:06:48 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 37) to (Rev. 38)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue Apr 30 04:54:02 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 36) to (Rev. 37)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue Apr 30 04:39:15 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 35) to (Rev. 36)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue Apr 30 04:34:37 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 34) to (Rev. 35)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue Apr 30 04:15:14 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 33) to (Rev. 34)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue Apr 30 03:56:29 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 31) to (Rev. 33)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue Apr 30 03:35:17 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 30) to (Rev. 31)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'CPU_MaybeThisWillWork_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'clk2'
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue Apr 30 03:08:52 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 29) to (Rev. 30)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue Apr 30 02:45:58 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 28) to (Rev. 29)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'CPU_MaybeThisWillWork_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'btn'
+
+-Upgrade has added port 'sw'
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Apr 28 08:19:51 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 27) to (Rev. 28)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Apr 28 08:00:33 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 26) to (Rev. 27)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Apr 28 07:43:25 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 25) to (Rev. 26)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Apr 28 07:41:05 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 24) to (Rev. 25)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Apr 28 07:28:03 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 23) to (Rev. 24)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Apr 28 07:22:21 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 22) to (Rev. 23)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Apr 28 07:14:44 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 21) to (Rev. 22)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Apr 28 07:09:29 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 20) to (Rev. 21)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Apr 28 07:02:12 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 19) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Apr 28 06:50:53 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 18) to (Rev. 19)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Apr 28 06:48:48 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 17) to (Rev. 18)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Apr 28 06:31:30 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 16) to (Rev. 17)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Apr 28 06:16:34 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 15) to (Rev. 16)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Apr 28 04:46:27 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 14) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Apr 28 04:43:29 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 13) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Apr 28 04:38:01 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 10) to (Rev. 13)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'CPU_MaybeThisWillWork_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'clk2'
+
+-Upgrade has added port 'led_a'
+
+-Upgrade has added port 'led_b'
+
+-Upgrade has added port 'led_b1'
+
+-Upgrade has added port 'led_b2'
+
+-Upgrade has added port 'led_c'
+
+-Upgrade has added port 'led_g1'
+
+-Upgrade has added port 'led_g2'
+
+-Upgrade has added port 'led_lat'
+
+-Upgrade has added port 'led_oe'
+
+-Upgrade has added port 'led_r1'
+
+-Upgrade has added port 'led_r2'
+
+-Upgrade has added port 'led_tick'
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Apr 28 04:04:49 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 9) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Apr 28 03:43:06 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Apr 28 03:23:49 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 7) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Apr 28 03:04:42 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 6) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Apr 28 02:45:33 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 5) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Apr 28 02:42:44 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 4) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Apr 28 02:13:47 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Apr 28 01:59:05 2019
+| Host         : DESKTOP-IB5R7ER running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CPU_MaybeThisWillWork_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CPU_MaybeThisWillWork_0_0 (xilinx.com:user:MaybeThisWillWork:1.0) from (Rev. 1) to (Rev. 3)
+
